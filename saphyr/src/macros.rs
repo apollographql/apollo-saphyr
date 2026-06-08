@@ -208,6 +208,7 @@ impl< $( $generic ),+ > $yaml $(where $($whereclause)+)? {
     ///
     /// # Examples
     /// ```
+    /// # extern crate apollo_saphyr as saphyr;
     /// # use saphyr::{Scalar, Yaml};
     /// assert!(matches!(Yaml::value_from_str("42"),   Yaml::Value(Scalar::Integer(42))));
     /// assert!(matches!(Yaml::value_from_str("0x2A"), Yaml::Value(Scalar::Integer(42))));
@@ -446,6 +447,7 @@ impl $(< $( $generic ),+ >)? $yaml $(where $($whereclause)+)? {
     /// replace it with a given value `other`. Otherwise, return self unchanged.
     ///
     /// ```
+    /// # extern crate apollo_saphyr as saphyr;
     /// # use saphyr::{Scalar, Yaml};
     /// #
     /// assert_eq!(

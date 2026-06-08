@@ -1,3 +1,5 @@
+extern crate apollo_saphyr_parser as saphyr_parser;
+
 use std::env;
 use std::fs::File;
 use std::io::prelude::*;

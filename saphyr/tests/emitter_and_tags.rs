@@ -1,3 +1,5 @@
+extern crate apollo_saphyr as saphyr;
+
 use saphyr::{LoadableYamlNode, Yaml, YamlEmitter};
 
 fn roundtrip_from_string(input: &str) {

@@ -1,6 +1,6 @@
 #![allow(dead_code)]
 #![allow(non_upper_case_globals)]
-extern crate saphyr_parser;
+extern crate apollo_saphyr_parser as saphyr_parser;
 
 use saphyr_parser::{Event, EventReceiver, Parser, ScalarStyle};
 

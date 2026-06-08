@@ -19,5 +19,5 @@ debug_prints = []
 hashlink = { workspace = true }
 miette = { workspace = true }
 rustyline = { workspace = true }
-saphyr = { workspace = true }
+apollo-saphyr = { workspace = true }
 thiserror = { workspace = true }

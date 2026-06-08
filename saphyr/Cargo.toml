@@ -1,5 +1,5 @@
 [package]
-name = "saphyr"
+name = "apollo-saphyr"
 authors = { workspace = true }
 categories = { workspace = true }
 description = { workspace = true }
@@ -24,7 +24,7 @@ encoding = [ "dep:encoding_rs" ]
 encoding_rs = { workspace = true, optional = true }
 hashlink = { workspace = true }
 ordered-float = { workspace = true }
-saphyr-parser = { workspace = true }
+apollo-saphyr-parser = { workspace = true }
 thiserror = { workspace = true }
 
 [dev-dependencies]

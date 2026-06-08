@@ -1,3 +1,5 @@
+extern crate apollo_saphyr as saphyr;
+
 use std::string::ToString;
 
 use saphyr::{LoadableYamlNode, MarkedYaml, SafelyIndex, SafelyIndexMut, Scalar, Yaml, YamlData};

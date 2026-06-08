@@ -52,6 +52,7 @@ pub enum YAMLDecodingTrap {
 /// For example, to read a YAML file while ignoring Unicode decoding errors you can set the
 /// `encoding_trap` to `encoding::DecoderTrap::Ignore`.
 /// ```rust
+/// # extern crate apollo_saphyr as saphyr;
 /// use saphyr::{YamlDecoder, YAMLDecodingTrap};
 ///
 /// let string = b"---

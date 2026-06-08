@@ -21,6 +21,7 @@ pub enum EmitError {
 /// The YAML serializer.
 ///
 /// ```
+/// # extern crate apollo_saphyr as saphyr;
 /// # use saphyr::{LoadableYamlNode, Yaml, YamlEmitter};
 /// let input_string = "a: b\nc: d";
 /// let yaml = Yaml::load_from_str(input_string).unwrap();
@@ -150,6 +151,7 @@ impl<'a> YamlEmitter<'a> {
     /// # Examples
     ///
     /// ```rust
+    /// # extern crate apollo_saphyr as saphyr;
     /// use saphyr::{LoadableYamlNode, Yaml, YamlEmitter};
     ///
     /// let input = r#"{foo: "bar!\nbar!", baz: 42}"#;

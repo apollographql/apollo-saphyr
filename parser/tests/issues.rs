@@ -1,3 +1,6 @@
+extern crate apollo_saphyr as saphyr;
+extern crate apollo_saphyr_parser as saphyr_parser;
+
 use saphyr::Marker;
 use saphyr_parser::{Event, Parser, ScalarStyle, ScanError, Span};
 

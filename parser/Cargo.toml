@@ -1,5 +1,5 @@
 [package]
-name = "saphyr-parser"
+name = "apollo-saphyr-parser"
 readme = "README.md"
 authors = { workspace = true }
 categories = { workspace = true }
@@ -31,7 +31,7 @@ libtest-mimic = { workspace = true }
 miette = { workspace = true }
 quickcheck = { workspace = true }
 rustyline = { workspace = true }
-saphyr = { workspace = true }
+apollo-saphyr = { workspace = true }
 
 [[test]]
 name = "yaml-test-suite"

@@ -1,3 +1,5 @@
+extern crate apollo_saphyr as saphyr;
+
 use saphyr::{LoadableYamlNode, Scalar, Yaml, YamlEmitter};
 
 fn roundtrip(original: &Yaml) {

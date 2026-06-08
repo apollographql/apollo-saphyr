@@ -1,5 +1,6 @@
 #[macro_use]
 extern crate quickcheck;
+extern crate apollo_saphyr as saphyr;
 
 use quickcheck::TestResult;
 

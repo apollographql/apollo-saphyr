@@ -1,5 +1,7 @@
 #![allow(unused_assignments)]
 
+extern crate apollo_saphyr as saphyr;
+
 use hashlink::LinkedHashMap;
 use miette::{bail, Diagnostic, NamedSource, Result, SourceSpan};
 use rustyline::{error::ReadlineError, DefaultEditor};

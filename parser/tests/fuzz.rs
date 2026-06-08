@@ -1,3 +1,5 @@
+extern crate apollo_saphyr_parser as saphyr_parser;
+
 use core::str;
 
 use saphyr_parser::{Event, Parser, ScanError};

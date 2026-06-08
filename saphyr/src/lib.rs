@@ -16,6 +16,7 @@
 //! Parse a string into `Vec<Yaml>` and then serialize it as a YAML string.
 //!
 //! ```
+//! # extern crate apollo_saphyr as saphyr;
 //! use saphyr::{LoadableYamlNode, Yaml, YamlEmitter};
 //!
 //! let docs = Yaml::load_from_str("[1, 2, 3]").unwrap();
@@ -78,6 +79,7 @@
 //!
 //! Examples:
 //! ```
+//! # extern crate apollo_saphyr as saphyr;
 //! # use saphyr::{LoadableYamlNode, Tag, Yaml};
 //! # let parse = |s| Yaml::load_from_str(s).unwrap().into_iter().next().unwrap();
 //! #
@@ -91,6 +93,7 @@
 //! User-defined tags can be applied to any node, whether a collection or a scalar. They do not
 //! change the resolution behavior of inner nodes.
 //! ```
+//! # extern crate apollo_saphyr as saphyr;
 //! # use saphyr::{LoadableYamlNode, Tag, Yaml};
 //! # let parse = |s| Yaml::load_from_str(s).unwrap().into_iter().next().unwrap();
 //! #
@@ -133,6 +136,7 @@
 extern crate alloc;
 #[cfg(any(feature = "encoding", test))]
 extern crate std;
+extern crate apollo_saphyr_parser as saphyr_parser;
 
 #[macro_use]
 mod macros;

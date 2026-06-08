@@ -8,4 +8,4 @@ edition = { workspace = true }
 version = { workspace = true }
 
 [dependencies]
-saphyr-parser = { workspace = true }
+apollo-saphyr-parser = { workspace = true }

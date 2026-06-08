@@ -1,6 +1,7 @@
 #![allow(clippy::bool_assert_comparison)]
 #![allow(clippy::float_cmp)]
 
+extern crate apollo_saphyr as saphyr;
 use saphyr::{LoadableYamlNode, Scalar, Yaml, YamlEmitter};
 
 #[test]

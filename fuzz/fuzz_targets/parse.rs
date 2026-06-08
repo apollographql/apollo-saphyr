@@ -1,5 +1,7 @@
 #![no_main]
 
+extern crate apollo_saphyr_parser as saphyr_parser;
+
 use libfuzzer_sys::fuzz_target;
 
 fuzz_target!(|data: &[u8]| {

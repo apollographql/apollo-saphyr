@@ -1,5 +1,6 @@
 #![allow(clippy::bool_assert_comparison)]
 #![allow(clippy::float_cmp)]
+extern crate apollo_saphyr_parser as saphyr_parser;
 
 use saphyr_parser::{Event, Parser, ScanError};
 

@@ -1,3 +1,5 @@
+extern crate apollo_saphyr as saphyr;
+
 use saphyr::{LoadableYamlNode, Yaml, YamlEmitter};
 
 #[allow(clippy::similar_names)]

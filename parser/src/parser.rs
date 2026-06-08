@@ -227,6 +227,7 @@ pub struct Parser<'input, T: Input> {
 ///
 /// # Example
 /// ```
+/// # extern crate apollo_saphyr_parser as saphyr_parser;
 /// # use saphyr_parser::{Event, EventReceiver, Parser};
 /// #
 /// /// Sink of events. Collects them into an array.

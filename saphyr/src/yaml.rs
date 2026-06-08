@@ -20,6 +20,7 @@ use crate::{LoadableYamlNode, Scalar, YamlOwned};
 /// # Examples
 ///
 /// ```
+/// # extern crate apollo_saphyr as saphyr;
 /// use saphyr::{Scalar, Yaml};
 /// let foo = Yaml::value_from_str("-123"); // convert the string to the appropriate YAML type
 /// assert_eq!(foo.as_integer().unwrap(), -123);

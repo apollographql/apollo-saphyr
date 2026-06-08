@@ -31,6 +31,8 @@ edition = "2021"
 rust-version = "1.65.0"
 
 [workspace.dependencies]
+apollo-saphyr = { path = "saphyr" }
+apollo-saphyr-parser = { path = "parser" }
 arraydeque = { version = "0.5.1", default-features = false }
 encoding_rs = { version = "0.8.35" }
 # Keep in sync with hashlink to reduce dependency duplication
@@ -41,9 +43,7 @@ miette = { version = "7.5.0", features = ["fancy"] }
 ordered-float = { version = "5.1", default-features = false }
 quickcheck = "1.0"
 rustyline = "17.0.2"
-saphyr = { path = "saphyr" }
 saphyr-bench = { path = "bench" }
-saphyr-parser = { path = "parser" }
 thiserror = { version = "2.0.17", default-features = false }
 
 [workspace.lints.rust]

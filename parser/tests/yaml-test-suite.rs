@@ -1,3 +1,6 @@
+extern crate apollo_saphyr as saphyr;
+extern crate apollo_saphyr_parser as saphyr_parser;
+
 use std::{
     borrow::Cow,
     fs::{self, DirEntry},

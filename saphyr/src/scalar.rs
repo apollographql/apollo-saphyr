@@ -75,6 +75,7 @@ impl<'input> Scalar<'input> {
     /// # Examples
     /// ```
     /// # extern crate alloc;
+    /// # extern crate apollo_saphyr as saphyr;
     /// # use saphyr::{Scalar, ScalarStyle, Tag};
     /// use alloc::borrow::Cow::Owned;
     /// let yaml_handle = "tag:yaml.org,2002:".to_string();
@@ -237,6 +238,7 @@ impl ScalarOwned {
     ///
     /// For instance:
     /// ```
+    /// # extern crate apollo_saphyr as saphyr;
     /// # use saphyr::{Scalar, ScalarOwned};
     /// fn process(scalar: &Scalar<'_>) {
     ///   // ...

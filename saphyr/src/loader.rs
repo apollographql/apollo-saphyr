@@ -164,6 +164,7 @@ pub trait LoadableYamlNode<'input>: Clone + core::hash::Hash + Eq {
     /// of the returned `Vec` will be used. Otherwise, each element in the `Vec` is a document:
     ///
     /// ```
+    /// # extern crate apollo_saphyr as saphyr;
     /// use saphyr::{LoadableYamlNode, Scalar, Yaml};
     ///
     /// let docs = Yaml::load_from_str(r#"
