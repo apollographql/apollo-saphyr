@@ -134,9 +134,9 @@
 
 #[macro_use]
 extern crate alloc;
+extern crate apollo_saphyr_parser as saphyr_parser;
 #[cfg(any(feature = "encoding", test))]
 extern crate std;
-extern crate apollo_saphyr_parser as saphyr_parser;
 
 #[macro_use]
 mod macros;

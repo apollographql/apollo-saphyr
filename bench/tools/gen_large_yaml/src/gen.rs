@@ -149,7 +149,14 @@ pub fn text(
             ret.push(String::new());
         }
 
-        ret.extend(paragraph(rng, lines_lo, lines_hi, wps_lo, wps_hi, line_maxcol));
+        ret.extend(paragraph(
+            rng,
+            lines_lo,
+            lines_hi,
+            wps_lo,
+            wps_hi,
+            line_maxcol,
+        ));
     }
 
     ret
