@@ -101,7 +101,6 @@ dependencies = [
 name = "apollo-saphyr-parser"
 version = "0.0.7-apollo.0"
 dependencies = [
- "apollo-saphyr",
  "arraydeque",
  "libtest-mimic",
  "miette",

@@ -31,8 +31,8 @@ edition = "2021"
 rust-version = "1.65.0"
 
 [workspace.dependencies]
-apollo-saphyr = { path = "saphyr" }
-apollo-saphyr-parser = { path = "parser" }
+apollo-saphyr = { version = "0.0.7-apollo.0", path = "saphyr" }
+apollo-saphyr-parser = { version = "0.0.7-apollo.0", path = "parser" }
 arraydeque = { version = "0.5.1", default-features = false }
 encoding_rs = { version = "0.8.35" }
 # Keep in sync with hashlink to reduce dependency duplication
